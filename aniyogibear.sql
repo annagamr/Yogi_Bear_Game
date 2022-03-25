@@ -1,0 +1,6 @@
+CREATE DATABASE IF NOT EXISTS aniyogibear;
+USE aniyogibear;
+CREATE TABLE IF NOT EXISTS highscores (
+  NAME VARCHAR(50) NOT NULL,
+  SCORE      INT
+);
